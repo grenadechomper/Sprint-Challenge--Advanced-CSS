@@ -306,6 +306,16 @@ footer {
     background: black;
   }
 }
+.home .walk .walk-text .btn {
+  margin: 5px 0;
+  padding: 5px 10px;
+  background: grey;
+  color: white;
+}
+.home .walk .walk-text .btn:hover {
+  background: white;
+  color: grey;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;

@@ -4,9 +4,25 @@
 
   .intro {
 
+.above {
+  width: 600px;
+  height: 150px;
+  border-radius: 4px;
+}
+.earth-contain {
+  display: flex;
+  max-width: 100%;
+  
+}
+    .earth-above {
+      margin: 0 auto;
+      max-width: 80%;
+      
+    }
     h2 {
       padding: 15px;
     }
+    .parametric(flex-end, center);
 
     p {
       padding:0 15px;
@@ -58,6 +74,19 @@
       }
 
       .btn {
+        border: grey 1px solid;
+        padding: 5px 7px;
+        border-radius: 4px;
+        max-width: 54px;
+        color: white;
+        background: grey;
+        font-size: 11px;
+        cursor: pointer;
+
+        &:hover {
+          background: white;
+          color: grey;
+        }
       }
     }
 
